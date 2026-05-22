@@ -1,0 +1,14 @@
+[
+  {
+    "Author": "jango",
+    "Name": "StreamerMode",
+    "InternalName": "StreamerMode",
+    "AssemblyVersion": "1.0.0.0",
+    "Punchline": "Hide your character and world name while streaming.",
+    "Description": "Locally spoofs your character name and world name to keep your identity private while streaming.",
+    "ApplicableGameVersion": "1.0",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/jango921/StreamerMode/releases/download/1.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/jango921/StreamerMode/releases/download/1.0.0.0/latest.zip",
+  }
+]
