@@ -1,0 +1,11 @@
+{
+  "Author": "jango",
+  "Name": "StreamerMode",
+  "Punchline": "Hide your character and world name while streaming.",
+  "Description": "Locally spoofs your character name and world name to keep your identity private while streaming.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "streamer",
+    "privacy"
+  ]
+}
