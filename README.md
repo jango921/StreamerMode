@@ -14,3 +14,6 @@ Spoof name in different ui (ex. in freecompany list / party members / any reveal
 
 ## Help
 I am doing this solely for myself, but if you find this plugin and want to contribute I welcome any ideas or code suggestions!
+
+## Repo
+ `https://raw.githubusercontent.com/jango921/StreamerMode/main/repo.json`
