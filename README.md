@@ -1,6 +1,6 @@
 # StreamerMode
 
-StreamerMode is a plugin that allows you to stream without revealing any information
+StreamerMode is a  FFXIV dalamud plugin that allows you to stream without revealing any information
 
 ## Reasoning
 Primarily making this to stream evercold and I want to be able to use plugins and stream.
