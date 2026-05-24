@@ -51,5 +51,32 @@ public class MainWindow : Window, IDisposable
             plugin.Configuration.SpoofWorld = spoofWorld;
             plugin.Configuration.Save();
         }
+
+        var spoofRandom = plugin.Configuration.SpoofRandomCharacterNames;
+        if (ImGui.Checkbox("Spoof random character names", ref spoofRandom))
+        {
+            plugin.Configuration.SpoofRandomCharacterNames = spoofRandom;
+            plugin.Configuration.Save();
+            if (!spoofRandom)
+                plugin.ClearRandomNameMap();
+        }
+
+        var spoofFriends = plugin.Configuration.SpoofRandomFriendNames;
+        if (ImGui.Checkbox("Spoof random friend names", ref spoofFriends))
+        {
+            plugin.Configuration.SpoofRandomFriendNames = spoofFriends;
+            plugin.Configuration.Save();
+            if (!spoofFriends)
+                plugin.ClearRandomNameMap();
+        }
+
+        var hideMinion = plugin.Configuration.HideMinionNameplate;
+        if (ImGui.Checkbox("Hide minion nameplate", ref hideMinion))
+        {
+            plugin.Configuration.HideMinionNameplate = hideMinion;
+            plugin.Configuration.Save();
+            plugin.RequestNamePlateRedraw();
+            plugin.SetMinionNameplateDisplayMode(hideMinion);
+        }
     }
 }

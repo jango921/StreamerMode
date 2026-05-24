@@ -11,6 +11,9 @@ public class Configuration : IPluginConfiguration
     public bool SpoofCharacterName { get; set; } = false;
     public string SpoofedName { get; set; } = string.Empty;
     public bool SpoofWorld { get; set; } = false;
+    public bool SpoofRandomCharacterNames { get; set; } = false;
+    public bool HideMinionNameplate { get; set; } = false;
+    public bool SpoofRandomFriendNames { get; set; } = false;
 
     public void Save()
     {
